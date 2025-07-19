@@ -1,0 +1,31 @@
+@keyframes Openslide {
+    0%{
+        font-size:0px;
+    }
+    100%{
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+}
+@keyframes Closeslide {
+    0%{
+        font-size: 1.25rem;
+        line-height: 1.75rem; 
+    }
+    100%{
+        font-size:0px;
+    }
+}
+
+.slide_open_animation{
+    animation-name: Openslide;
+    animation-duration: 0.3s; 
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.slide_close_animation{
+    animation-name: Closeslide;
+    animation-duration: 0.3s; 
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
